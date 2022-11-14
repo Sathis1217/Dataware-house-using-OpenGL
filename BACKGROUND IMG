@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        #mydiv{
+        
+            color: aliceblue;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 30px;
+            background-color: brown;
+            padding: 20px;
+            margin: 130px;
+            border-radius: 50px;
+            border-width: 10px;
+            border-color: springgreen;
+            border-style: dotted;
+        }
+        body{
+            background-image: url("pexels.jpeg");
+        }
+    </style>
+</head>
+<body>
+<h3 id="mydiv">its my om</h3>    
+</body>
+</html>
