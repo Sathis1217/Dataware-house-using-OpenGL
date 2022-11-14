@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+
+    <style>
+        #mydiv{
+            width: 200px;
+            height: 200px;
+            background-color: yellow;
+            border-radius: 20px;
+            margin: 20px;
+            padding: 20px;
+            animation-name: mybox;
+            animation-duration: 1s;
+            animation-iteration-count: 5;
+            position: relative;
+        }
+        @keyframes mybox{
+            10%{background-color: teal;left:0px;top:0px}
+            30%{background-color: darkmagenta;left: 200px;top:0px}
+            50%{background-color:rgb(80, 255, 124);left:200px;top:200px}
+            70%{background-color:black;left:0px;top:200px}
+            100%{background-color: dimgray;left:0px;top:0px}
+        }
+        body{
+            background-color: tomato;
+        }
+        h1{
+            color: aliceblue;
+            background-image: linear-gradient(120deg,black,red,yellow);  /*120deg is used bcoz the color changed in 120deg*/
+            font-family: fantasy;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="mydiv" align= "center">
+    <h1>  hello everyone</h1>
+    </div>
+</body>
+</html>
